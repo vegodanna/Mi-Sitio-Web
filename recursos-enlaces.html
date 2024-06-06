@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Recursos y Enlaces Útiles - Mi sitio web de seguridad</title>
+  <link rel="stylesheet" href="Style.css">
+  <style>
+    body {
+      font-family: Gabriola, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fefefe; /* Fondo blanca */
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+    header {
+      background-color: #2fabfd;
+      color: #6d1ead;
+      padding: 10px 0;
+      text-align: center;
+    }
+    nav ul {
+      list-style: none;
+      padding: 0;
+    }
+    nav ul li {
+      display: inline;
+      margin: 0 15px;
+    }
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav ul li a:hover {
+      text-decoration: underline;
+    }
+    main {
+      display: flex;
+      justify-content: space-between;
+      padding: 20px;
+      background-color: #000000; /* Fondo blanco para la sección principal */
+      margin: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      color: #fafafa; /* Texto oscuro para contraste en el fondo blanco */
+      flex-grow: 1;
+    }
+    section {
+      flex: 1;
+      margin-right: 20px;
+    }
+    .sidebar {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      flex: 0 0 200px;
+      margin-top: 40px; /* Mueve la sección de imágenes hacia abajo */
+    }
+    .sidebar img {
+      width: 450px; /* Aumenta el tamaño de las imágenes */
+      margin-bottom: 40px;
+      animation: blink 2s infinite;
+    }
+    @keyframes blink {
+      0% { opacity: 1; }
+      60% { opacity: 1; }
+      100% { opacity: 2; }
+    }
+    h2 {
+      color: #070707; /* Cambia el color del título a negro */
+      background: -webkit-linear-gradient(45deg, #ab7070, #7a15ff); /* Fondo con efecto de aurora */
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    ul li {
+      margin-bottom: 10px;
+    }
+    ul li a {
+      color: #6466e5;
+      text-decoration: none;
+    }
+    ul li a:hover {
+      text-decoration: underline;
+    }
+    .button {
+      display: inline-block;
+      padding: 10px 20px;
+      margin: 10px 0;
+      font-size: 16px;
+      color: #000000;
+      background-color: #fa9bcd;
+      border: none;
+      border-radius: 5px;
+      text-decoration: none;
+      text-align: center;
+      cursor: pointer;
+    }
+    .button:hover {
+      background-color: #75b5fa;
+    }
+    footer {
+      background-color: #020202;
+      color: #fff;
+      text-align: center;
+      padding: 10px 0;
+      position: static;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Mi sitio web de Seguridad</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="consejos-generales.html">Consejos Generales</a></li>
+        <li><a href="proteccion-contrasenas.html">Protección de Contraseñas</a></li>
+        <li><a href="proteccion-malware.html">Protección contra Malware</a></li>
+        <li><a href="recursos-enlaces.html">Recursos y Enlaces</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <h2>Recursos y Enlaces Útiles</h2>
+      <p>En esta sección, te proporcionamos una recopilación de recursos y enlaces para que puedas profundizar en tu conocimiento sobre seguridad web y tomar acciones concretas para proteger tu presencia en línea.</p>
+      
+      <h3>Organismos y Organizaciones de Seguridad</h3>
+      <ul>
+        <li><a href="https://www.osi.es/">Oficina de Seguridad del Internauta (OSI)</a> : Servicio español dedicado a la seguridad de los usuarios en internet, con recursos y guías útiles.</li>
+        <li><a href="https://www.ccn-cert.cni.es/">Centro Criptológico Nacional (CCN-CERT)</a> :Organismo español especializado en la ciberseguridad y protección de la información.</li>
+        <li><a href="https://www.enisa.europa.eu/">Agencia de la Unión Europea para la Ciberseguridad (ENISA)</a> : Agencia europea encargada de mejorar la ciberseguridad en la UE.</li>
+        <li><a href="https://www.sans.org/">SANS Institute</a>: Organización que ofrece formación y certificaciones en ciberseguridad, así como recursos y guías.</li>
+      </ul>
+      <a class="button" href="https://www.osi.es/">Más Información</a>
+
+      <h3>Guías y Manuales de Seguridad</h3>
+      <ul>
+        <li><a href="https://www.osi.es/es/guias">Guías de Seguridad de la OSI</a> : Conjunto de guías prácticas para proteger tu seguridad en internet.</li>
+        <li><a href="https://www.ccn-cert.cni.es/informes/guias-ccn-cert.html">Guías del CCN-CERT</a> : Documentación técnica y guías sobre buenas prácticas de ciberseguridad.</li>
+        <li><a href="https://www.enisa.europa.eu/publications/guides-for-the-public">Guías de ENISA</a> : Publicaciones y guías de ciberseguridad para el público en general y profesionales.</li>
+        <li><a href="https://www.sans.org/security-resources/">Recursos de Seguridad de SANS Institute</a> : Recursos educativos y guías sobre ciberseguridad.</li>
+      </ul>
+      <a class="button" href="https://www.osi.es/es/guias">Ver Guías</a>
+
+      <h3>Herramientas y Aplicaciones de Seguridad</h3>
+      <ul>
+        <li><a href="https://www.1password.com/">1Password</a> : Gestor de contraseñas que ayuda a proteger y gestionar tus credenciales de forma segura.</li>
+        <li><a href="https://www.avast.com/">Avast</a> :Software antivirus y de seguridad que ofrece protección contra diversas amenazas.</li>
+        <li><a href="https://www.nordvpn.com/">NordVPN</a> : Servicio de red privada virtual (VPN) que garantiza tu privacidad y seguridad en línea.</li>
+        <li><a href="https://keepass.info/">KeePass</a> : Administrador de contraseñas de código abierto que permite gestionar contraseñas de forma segura.</li>
+      </ul>
+      <a class="button" href="https://www.1password.com/">Descargar Herramientas</a>
+
+      <p>Recuerda que esta lista no es exhaustiva, y existen muchos otros recursos y herramientas valiosas para mejorar la seguridad en línea. Te invitamos a explorar estos enlaces y a mantenerte actualizado sobre las últimas tendencias y mejores prácticas en ciberseguridad.</p>
+      
+      <p>Si tienes alguna duda o necesitas más información, no dudes en contactarnos. te podemos ayudar a navegar de manera más segura por el mundo digital.</p>
+    </section>
+    <div class="sidebar">
+      <img src="Imagenes/c19.png" alt="Imagen 1">
+      <img src="Imagenes/c20.jpg" alt="Imagen 2">
+    </div>
+  </main>
+  <footer>
+    <p>&copy; Danna VeGo 403.</p> 
+  </footer>
+</body>
+</html>
